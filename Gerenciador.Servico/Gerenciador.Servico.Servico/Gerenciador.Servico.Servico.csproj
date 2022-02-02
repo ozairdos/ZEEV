@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gerenciador.Servico.Dominio\Gerenciador.Servico.Dominio.csproj" />
+    <ProjectReference Include="..\Gerenciador.Servico.Infra.Dados\Gerenciador.Servico.Infra.Dados.csproj" />
+  </ItemGroup>
+
+</Project>
